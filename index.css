@@ -9,6 +9,10 @@
     font-size: 16px;
 }
 
+a {
+    cursor: pointer;
+}
+
 body {
     width: 80%;
     margin: 0px auto 30px;
@@ -28,10 +32,10 @@ header {
    grid-column: 1 / 12;
    display: grid;
    grid-template-columns: repeat(4, 1fr) auto auto;
-   grid-template-rows: repeat(2fr);
+   grid-template-rows: repeat(1fr);
    grid-template-areas:
-   'logo menu menu menu phone contacts'
-   'logo_description null null null null null';
+   'logo menu menu menu phone contacts';
+   /* 'null null null null null null'; */
    column-gap: 1em; 
 }
 
@@ -166,6 +170,7 @@ h2, h2 > * {
 
 .right {
     align-items: self-end;
+    text-align: end;
 }
 
 .security-policy {
@@ -379,8 +384,8 @@ h2, h2 > * {
     }
 
     .right {
-        
         align-items: self-start;
+        text-align: start;
     }
 
     .security-policy > * {
