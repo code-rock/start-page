@@ -293,6 +293,7 @@ h2, h2 > * {
         align-items: center;
         padding: 1.5em 0;
         grid-column: 1 / 13;
+        margin: 0;
     }
 
     menu > * {
